@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="app">
-      <h1>Creating a tinder-clone using the MERN stack</h1>
+      <Header />
+      {/* TinderCards */}
+      {/* Swipe Button */}
     </div>
   );
 }
