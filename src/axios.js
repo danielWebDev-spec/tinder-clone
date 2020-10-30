@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: process.env.REACT_APP_DB_TINDER_CLONE,
+  baseURL: "https://tinder-clone-backend1234.herokuapp.com",
 });
 
 export default instance;
